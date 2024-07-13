@@ -337,7 +337,7 @@ if (weatherdata) {
                             <div  className='center'>
                             <p>  Fri</p>
                             <p className='black m-2'><i className="fa fa-cloud" aria-hidden="true"/></p>
-                            <p>{fri?fri[0].temp:null}°C</p>
+                            <p>{ sat?sat[0].temp:(fri[0].temp)}°C</p>
                             </div>
 
                             <div  className='center'>
